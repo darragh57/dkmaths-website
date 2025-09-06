@@ -1,8 +1,0 @@
-echo "# dkmaths-website" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/darragh57/dkmaths-website.git
-git push -u origin main
-https://chatgpt.com/canvas/shared/68bcc39b61108191a940c68ac4e33f66
