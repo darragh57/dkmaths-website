@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Darragh Maths Grinds | Junior Cycle & Leaving Cert (Ireland)</title>
+  <meta name="description" content="1:1 and small‑group maths grinds for Junior Cycle & Leaving Cert students in Ireland. Clear explanations, exam‑focused notes, flexible online or in‑person." />
+  <meta property="og:title" content="Darragh Maths Grinds" />
+  <meta property="og:description" content="1:1 and small‑group maths grinds for Irish secondary students. Exam‑focused, friendly, and flexible." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://example.com" />
+  <meta property="og:image" content="/og-image.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root { --brand:#0ea5e9; }
+    html { scroll-behavior: smooth; }
+    body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+    .glass { backdrop-filter: blur(10px); background: rgba(255,255,255,0.65); }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Darragh Maths Grinds",
+    "description": "1:1 and small‑group maths grinds for Junior Cycle & Leaving Cert in Ireland (Higher & Ordinary). Online or in‑person.",
+    "image": "https://example.com/og-image.png",
+    "areaServed": "Ireland",
+    "sameAs": [],
+    "priceRange": "€€",
+    "telephone": "+353-00-000-0000",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "IE"
+    },
+    "url": "https://example.com",
+    "makesOffer": [{
+      "@type": "Offer",
+      "name": "1:1 Maths Grinds (Junior Cycle / Leaving Cert)",
+      "priceCurrency": "EUR",
+      "price": "40",
+      "availability": "https://schema.org/InStock"
+    },{
+      "@type": "Offer",
+      "name": "Small‑Group Grinds (2–5 students)",
+      "priceCurrency": "EUR",
+      "price": "25"
+    }]
+  }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-800">
+  <!-- Nav -->
+  <header class="fixed top-0 left-0 right-0 z-50">
+    <div class="mx-auto max-w-7xl px-4">
+      <nav class="glass rounded-2xl mt-4 px-4 py-3 flex items-center justify-between shadow-lg">
+        <a href="#home" class="flex items-center gap-2 font-extrabold tracking-tight text-xl"><span class="inline-block w-8 h-8 rounded-xl bg-[var(--brand)]"></span> Darragh Maths Grinds</a>
+        <div class="hidden md:flex items-center gap-6 text-sm font-medium">
+          <a href="#services" class="hover:text-[var(--brand)]">Services</a>
+          <a href="#pricing" class="hover:text-[var(--brand)]">Pricing</a>
+          <a href="#testimonials" class="hover:text-[var(--brand)]">Testimonials</a>
+          <a href="#faq" class="hover:text-[var(--brand)]">FAQ</a>
+          <a href="#contact" class="hover:text-[var(--brand)]">Contact</a>
+          <a href="#book" class="ml-2 inline-flex items-center rounded-xl bg-[var(--brand)] px-4 py-2 text-white shadow hover:opacity-90">Book a Grind</a>
+        </div>
+        <button id="menuBtn" class="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-xl bg-white shadow" aria-label="Open menu">☰</button>
+      </nav>
+    </div>
+    <div id="mobileMenu" class="md:hidden hidden mx-auto max-w-7xl px-4">
+      <div class="glass mt-2 rounded-2xl px-4 py-3 shadow-lg">
+        <a class="block py-2" href="#services">Services</a>
+        <a class="block py-2" href="#pricing">Pricing</a>
+        <a class="block py-2" href="#testimonials">Testimonials</a>
+        <a class="block py-2" href="#faq">FAQ</a>
+        <a class="block py-2" href="#contact">Contact</a>
+        <a class="block py-2 text-[var(--brand)] font-semibold" href="#book">Book a Grind</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="pt-40 pb-20">
+    <div class="mx-auto max-w-7xl px-4 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">Exam‑focused <span class="text-[var(--brand)]">Maths Grinds</span> for Irish Secondary Students</h1>
+        <p class="mt-5 text-lg text-slate-600">Junior Cycle & Leaving Cert (Higher & Ordinary). Clear explanations, past‑paper drills, and personalised plans. Online nationwide or in‑person (location dependent).</p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="#book" class="inline-flex items-center rounded-2xl bg-[var(--brand)] px-6 py-3 text-white font-semibold shadow hover:opacity-90">Book a 1:1 Trial</a>
+          <a href="#services" class="inline-flex items-center rounded-2xl bg-white px-6 py-3 font-semibold shadow hover:shadow-md">See how it works</a>
+        </div>
+        <div class="mt-6 text-sm text-slate-500">⚡ 60‑minute sessions · Notes & homework support · Parent updates</div>
+      </div>
+      <div class="relative">
+        <div class="absolute -inset-4 bg-[var(--brand)]/10 rounded-3xl blur-xl"></div>
+        <div class="relative bg-white rounded-3xl p-6 shadow-xl border border-slate-100">
+          <ul class="grid gap-3 text-sm">
+            <li>✅ Junior Cycle: Algebra, Functions, Geometry, Statistics</li>
+            <li>✅ Leaving Cert: Algebra, Calculus, Trig, Complex Numbers, Probability</li>
+            <li>✅ Exam skills: marking schemes, timing, common pitfalls</li>
+          </ul>
+          <div class="mt-5 grid grid-cols-3 gap-3 text-center">
+            <div class="rounded-2xl bg-slate-50 p-4"><div class="text-2xl font-extrabold">1:1</div><div class="text-xs text-slate-500">Personalised</div></div>
+            <div class="rounded-2xl bg-slate-50 p-4"><div class="text-2xl font-extrabold">Group</div><div class="text-xs text-slate-500">2–5 students</div></div>
+            <div class="rounded-2xl bg-slate-50 p-4"><div class="text-2xl font-extrabold">Online</div><div class="text-xs text-slate-500">Nationwide</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-20 bg-white">
+    <div class="mx-auto max-w-7xl px-4">
+      <h2 class="text-3xl font-extrabold">Services</h2>
+      <p class="mt-2 text-slate-600 max-w-3xl">Start 1:1 now; small‑group grinds available from January. Sessions are 60 minutes by default, with focused goals and take‑home notes.</p>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <div class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h3 class="text-xl font-bold">1:1 Grinds</h3>
+          <p class="mt-2 text-sm text-slate-600">Tailored plan, immediate feedback, and weekly parent summary. Ideal for big grade jumps.</p>
+          <ul class="mt-4 text-sm list-disc list-inside space-y-1">
+            <li>Personalised syllabus map</li>
+            <li>Past papers & marking schemes</li>
+            <li>Homework review & support</li>
+          </ul>
+          <a href="#book" class="mt-5 inline-flex rounded-xl bg-[var(--brand)] px-4 py-2 text-white text-sm font-semibold">Book 1:1</a>
+        </div>
+        <div class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h3 class="text-xl font-bold">Small‑Group (2–5)</h3>
+          <p class="mt-2 text-sm text-slate-600">Structured, exam‑topic blocks with worksheets. Great value and motivation with peers.</p>
+          <ul class="mt-4 text-sm list-disc list-inside space-y-1">
+            <li>Topic‑based bootcamps</li>
+            <li>Q&A and timed drills</li>
+            <li>Recorded recap (optional)</li>
+          </ul>
+          <a href="#waitlist" class="mt-5 inline-flex rounded-xl bg-slate-900 px-4 py-2 text-white text-sm font-semibold">Join Group Waitlist</a>
+        </div>
+        <div class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h3 class="text-xl font-bold">Study Plans & Mock Reviews</h3>
+          <p class="mt-2 text-sm text-slate-600">Custom study schedules and mock‑exam report with targeted fixes.</p>
+          <ul class="mt-4 text-sm list-disc list-inside space-y-1">
+            <li>Weekly schedule & check‑ins</li>
+            <li>Marking‑scheme feedback</li>
+            <li>Confidence & timing strategies</li>
+          </ul>
+          <a href="#contact" class="mt-5 inline-flex rounded-xl bg-white border border-slate-300 px-4 py-2 text-sm font-semibold">Enquire</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="py-20 bg-slate-50">
+    <div class="mx-auto max-w-7xl px-4">
+      <h2 class="text-3xl font-extrabold">Pricing</h2>
+      <p class="mt-2 text-slate-600">Transparent rates. Discount for block bookings.</p>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <div class="rounded-3xl bg-white p-6 shadow border border-slate-200">
+          <h3 class="text-xl font-bold">1:1 Session</h3>
+          <div class="mt-3 text-3xl font-extrabold">€40<span class="text-base font-medium text-slate-500"> / 60 min</span></div>
+          <ul class="mt-4 text-sm list-disc list-inside space-y-1">
+            <li>Online or in‑person</li>
+            <li>Personal plan & resources</li>
+            <li>Parent summary</li>
+          </ul>
+          <a href="#book" class="mt-5 inline-flex rounded-xl bg-[var(--brand)] px-4 py-2 text-white text-sm font-semibold">Book now</a>
+        </div>
+        <div class="rounded-3xl bg-white p-6 shadow border-2 border-[var(--brand)]">
+          <h3 class="text-xl font-bold">Block (5 x 1:1)</h3>
+          <div class="mt-3 text-3xl font-extrabold">€185<span class="text-base font-medium text-slate-500"> total</span></div>
+          <ul class="mt-4 text-sm list-disc list-inside space-y-1">
+            <li>Priority slots</li>
+            <li>Progress tracker</li>
+            <li>Rescheduling flexibility</li>
+          </ul>
+          <a href="#book" class="mt-5 inline-flex rounded-xl bg-[var(--brand)] px-4 py-2 text-white text-sm font-semibold">Reserve</a>
+        </div>
+        <div class="rounded-3xl bg-white p-6 shadow border border-slate-200">
+          <h3 class="text-xl font-bold">Small‑Group (2–5)</h3>
+          <div class="mt-3 text-3xl font-extrabold">€25<span class="text-base font-medium text-slate-500"> / student</span></div>
+          <ul class="mt-4 text-sm list-disc list-inside space-y-1">
+            <li>Topic bootcamps</li>
+            <li>Worksheets included</li>
+            <li>Starts January</li>
+          </ul>
+          <a href="#waitlist" class="mt-5 inline-flex rounded-xl bg-slate-900 px-4 py-2 text-white text-sm font-semibold">Join waitlist</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking -->
+  <section id="book" class="py-20 bg-white">
+    <div class="mx-auto max-w-7xl px-4 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-3xl font-extrabold">Book a 20‑minute free consultation</h2>
+        <p class="mt-2 text-slate-600">We’ll chat about goals, recent results, and a plan to the exam. Parents welcome on the call.</p>
+        <ul class="mt-4 text-sm list-disc list-inside space-y-1 text-slate-700">
+          <li>Flexible evenings & weekends</li>
+          <li>Zoom or Google Meet link sent automatically</li>
+          <li>No obligation to continue</li>
+        </ul>
+      </div>
+      <div class="rounded-3xl border border-slate-200 bg-white p-4 shadow">
+        <!-- Calendly embed placeholder -->
+        <div class="rounded-2xl border border-dashed border-slate-300 p-6 text-center text-slate-500">
+          <p class="font-semibold">Calendly / TidyCal embed goes here</p>
+          <p class="text-sm">Replace this box by pasting your scheduling widget script.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="py-20 bg-slate-50">
+    <div class="mx-auto max-w-7xl px-4">
+      <h2 class="text-3xl font-extrabold">Testimonials</h2>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <figure class="rounded-3xl bg-white p-6 shadow border border-slate-200">
+          <blockquote class="text-slate-700">“Explains everything so clearly. My son went from O4 to O2 in ten weeks.”</blockquote>
+          <figcaption class="mt-3 text-sm text-slate-500">— Parent, Cork</figcaption>
+        </figure>
+        <figure class="rounded-3xl bg-white p-6 shadow border border-slate-200">
+          <blockquote class="text-slate-700">“Past‑paper focus was a game‑changer. Got a H2 after aiming for H4.”</blockquote>
+          <figcaption class="mt-3 text-sm text-slate-500">— LC Student, Kerry</figcaption>
+        </figure>
+        <figure class="rounded-3xl bg-white p-6 shadow border border-slate-200">
+          <blockquote class="text-slate-700">“Weekly parent updates were so helpful. Highly recommend.”</blockquote>
+          <figcaption class="mt-3 text-sm text-slate-500">— Parent, Dublin</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-20 bg-white">
+    <div class="mx-auto max-w-7xl px-4">
+      <h2 class="text-3xl font-extrabold">Frequently Asked Questions</h2>
+      <div class="mt-8 grid md:grid-cols-2 gap-6">
+        <div class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h3 class="font-bold">Do you teach Higher and Ordinary?</h3>
+          <p class="mt-2 text-sm text-slate-600">Yes — Junior Cycle & Leaving Cert, both levels.</p>
+        </div>
+        <div class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h3 class="font-bold">Online or in‑person?</h3>
+          <p class="mt-2 text-sm text-slate-600">Online nationwide. Limited in‑person slots depending on location.</p>
+        </div>
+        <div class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h3 class="font-bold">What platform and materials?</h3>
+          <p class="mt-2 text-sm text-slate-600">Zoom/Meet, OneNote/Google Drive notes, exam papers, and custom worksheets.</p>
+        </div>
+        <div class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h3 class="font-bold">Cancellation policy?</h3>
+          <p class="mt-2 text-sm text-slate-600">Free reschedule with 24‑hour notice. No‑shows are charged.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 bg-slate-50">
+    <div class="mx-auto max-w-7xl px-4 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-3xl font-extrabold">Get in touch</h2>
+        <p class="mt-2 text-slate-600">Questions, school packs, or to discuss group grinds from January — send a message and I’ll reply the same day.</p>
+        <div class="mt-4 text-sm text-slate-600">
+          <p><strong>Email:</strong> hello@example.com</p>
+          <p><strong>Phone/WhatsApp:</strong> +353 00 000 0000</p>
+        </div>
+      </div>
+      <form id="contactForm" class="rounded-3xl bg-white p-6 shadow border border-slate-200" action="https://formspree.io/f/your-id" method="POST">
+        <div class="grid gap-4">
+          <div>
+            <label class="text-sm font-medium">Parent/Student Name</label>
+            <input name="name" required class="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2" />
+          </div>
+          <div>
+            <label class="text-sm font-medium">Email</label>
+            <input name="email" type="email" required class="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2" />
+          </div>
+          <div>
+            <label class="text-sm font-medium">Level</label>
+            <select name="level" class="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2">
+              <option>Junior Cycle — Higher</option>
+              <option>Junior Cycle — Ordinary</option>
+              <option>Leaving Cert — Higher</option>
+              <option>Leaving Cert — Ordinary</option>
+            </select>
+          </div>
+          <div>
+            <label class="text-sm font-medium">Message</label>
+            <textarea name="message" rows="4" class="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2" placeholder="Tell me about goals, recent grades, or a preferred time..."></textarea>
+          </div>
+          <button class="rounded-xl bg-[var(--brand)] px-4 py-2 text-white font-semibold">Send message</button>
+          <p id="formMsg" class="hidden text-sm text-green-600">Thanks — I’ll be in touch shortly!</p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10 border-t bg-white">
+    <div class="mx-auto max-w-7xl px-4 flex flex-col md:flex-row items-center justify-between gap-4">
+      <p class="text-sm">© <span id="year"></span> Darragh Maths Grinds. All rights reserved.</p>
+      <div class="text-xs text-slate-500 flex gap-4">
+        <a href="#" class="hover:text-[var(--brand)]">Privacy</a>
+        <a href="#" class="hover:text-[var(--brand)]">Terms</a>
+        <a href="#contact" class="hover:text-[var(--brand)]">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    document.getElementById('menuBtn')?.addEventListener('click', () => {
+      const m = document.getElementById('mobileMenu');
+      m.classList.toggle('hidden');
+    });
+    // Footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+    // Contact form helper (shows local success message; Formspree handles actual submit)
+    const form = document.getElementById('contactForm');
+    const msg = document.getElementById('formMsg');
+    form?.addEventListener('submit', function(){
+      setTimeout(()=>{ msg?.classList.remove('hidden'); }, 500);
+    });
+  </script>
+</body>
+</html>
